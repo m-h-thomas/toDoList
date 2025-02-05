@@ -29,23 +29,26 @@ body {
     color: blue;
     font-size: 50px;
   }
-  input {
+  .userInput {
     color: blue;
     font-size: 25px;
     font-weight: bold;
     padding: 15px;
     margin: 10px;
   }
-  #add-task {
+  .btn {
     font-weight: normal;
     color: white;
     background-color: black;
     font-size: 20px;
     margin: 10px;
     padding: 10px;
+    border: 5px solid white;
+    border-radius: 1;
   }
-  #add-task:hover {
+  .btn:hover {
     background-color: gray;
+    cursor: pointer;
   }
 }
 
@@ -58,7 +61,7 @@ body {
 .notStartedContainer {
   grid-column: 1;
   height: 200px;
-  /* padding: 5px; */
+  padding-left: 80px;
   margin: 25px;
   border: 5px solid white;
   font-size: 30px;
@@ -69,7 +72,7 @@ body {
 .inProgressContainer {
   grid-column: 2;
   height: 200px;
-  /* padding: 5px; */
+  padding-left: 90px;
   margin: 25px;
   border: 5px solid white;
   font-size: 30px;
@@ -80,7 +83,7 @@ body {
 .completedContainer {
   grid-column: 3;
   height: 200px;
-  /* padding: 5px; */
+  padding-left: 100px;
   margin: 25px;
   border: 5px solid white;
   font-size: 30px;
