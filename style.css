@@ -1,0 +1,32 @@
+h1 {
+  color: purple
+}
+
+.newTaskContainer {
+  color: blue;
+  background-color: aquamarine;
+  div {
+    color: blue;
+  }
+  #add-task {
+    color: white;
+    background-color: black;
+  }
+}
+
+.statusContainers {
+  background-color: black;
+  color: white;
+}
+
+.notStartedContainer {
+  color: red;
+}
+
+.inProgressContainer {
+  color: yellow;
+}
+
+.completedContainer {
+  color: green;
+}
