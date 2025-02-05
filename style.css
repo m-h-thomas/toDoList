@@ -10,14 +10,16 @@
 body {
   background-color: gray;
   h1 {
+    font-size: 50px;
     padding-left: 25px;
     padding-top: 15px;
     color: whitesmoke;
   }
 }
 
-
 .newTaskContainer {
+  display: grid;
+  grid-template-rows: auto;
   color: blue;
   font-size: 40px;
   margin: 25px;
@@ -30,55 +32,62 @@ body {
   input {
     color: blue;
     font-size: 25px;
+    font-weight: bold;
     padding: 15px;
     margin: 10px;
   }
   #add-task {
-    align-content: center;
+    font-weight: normal;
     color: white;
     background-color: black;
     font-size: 20px;
     margin: 10px;
     padding: 10px;
   }
+  #add-task:hover {
+    background-color: gray;
+  }
 }
 
 .statusContainers {
+  display: grid;
   color: white;
+  grid-template-columns: 33.3% 33.3% 33.3%;
 }
 
 .notStartedContainer {
+  grid-column: 1;
   height: 200px;
-  width: 33%;
-  padding: 5px;
+  /* padding: 5px; */
   margin: 25px;
   border: 5px solid white;
   font-size: 30px;
   color: red;
-  align-content: flex-start;
   background-color: black;
 }
 
 .inProgressContainer {
+  grid-column: 2;
   height: 200px;
-  width: 33%;
-  padding: 5px;
+  /* padding: 5px; */
   margin: 25px;
   border: 5px solid white;
   font-size: 30px;
   color: yellow;
-  align-content: flex-start;
   background-color: black;
 }
 
 .completedContainer {
+  grid-column: 3;
   height: 200px;
-  width: 33%;
-  padding: 5px;
+  /* padding: 5px; */
   margin: 25px;
   border: 5px solid white;
   font-size: 30px;
   color: green;
-  align-content: flex-start;
   background-color: black;
+}
+
+footer {
+  padding-left: 25px;
 }
