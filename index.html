@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>To Do List Application</h1>
+  <div class="newTaskContainer">
+    <div><strong>What do you need to do?</strong></div>
+    <input type="text" id="input-box" placeholder="Enter new To Do item">
+    <br>
+    <button type="button" id="add-task">Add task</button>
+  </div>
+
+  <div class="statusContainers">
+    <div class="notStartedContainer">
+      <ul><strong>Not Started</strong></ul>
+    </div>
+
+    <div class="inProgessContainer">
+      <ul><strong>In Progress</strong></ul>
+    </div>
+
+    <div class="completedContainer">
+      <ul><strong>Completed</strong></ul>
+    </div>
+  </div>
+  <!--Make sure script element is at the bottom-->
+  <script src="./index.js"></script>
+</body>
+</html>
