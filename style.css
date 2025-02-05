@@ -1,16 +1,32 @@
 h1 {
-  color: purple
+  color: whitesmoke;
 }
 
+body {
+  background-color: gray;
+}
 .newTaskContainer {
   color: blue;
-  background-color: aquamarine;
+  font-size: 25px;
+  margin: 25px;
+  padding: 15px;
+  background-color: gainsboro;
   div {
     color: blue;
   }
+  input {
+    color: blue;
+    font-size: 15px;
+    padding: 15px;
+    margin: 10px;
+  }
   #add-task {
+    align-content: center;
     color: white;
     background-color: black;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
   }
 }
 
@@ -20,13 +36,34 @@ h1 {
 }
 
 .notStartedContainer {
+  height: 200px;
+  width: 33%;
+  padding: 5px;
+  margin: 25px;
+  border: 5px solid white;
+  font-size: 30px;
   color: red;
+  align-content: flex-start;
 }
 
 .inProgressContainer {
+  height: 200px;
+  width: 33%;
+  padding: 5px;
+  margin: 25px;
+  border: 5px solid white;
+  font-size: 30px;
   color: yellow;
+  align-content: flex-start;
 }
 
 .completedContainer {
+  height: 200px;
+  width: 33%;
+  padding: 5px;
+  margin: 25px;
+  border: 5px solid white;
+  font-size: 30px;
   color: green;
+  align-content: flex-start;
 }
